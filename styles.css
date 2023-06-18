@@ -13,7 +13,47 @@ body {
 
 a {
     color: #007aff;
+    margin: 0px;
+    text-decoration: none;
 } a:hover {
     color: #007aff;
     text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 15px;
+} 
+
+input {
+    border: 0px;
+    outline: 0px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    border: 0px;
+    outline: 0px;
+    background-color: #007aff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+    cursor: pointer;
+} button:hover {
+    background-color: #1687ff;
 }

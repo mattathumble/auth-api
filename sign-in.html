@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in | Learn Auth API</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="check-password.js"></script>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh !important;">
+    <section style="max-width: 600px; width: 400px;">
+        <div class="form-container">
+            <h1 style="text-align: center; margin: 0px;">Sign in</h1>
+            <div class="form">
+                <input type="email" placeholder="Enter your email address...">
+                <input type="password" placeholder="Enter your password..." id="passwordEntered" required>
+                <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-top: 20px;">
+                    <a href="">Forgot password?</a>
+                    <button type="submit" style="width: max-content;" onclick="passwordAuth()">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
